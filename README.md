@@ -7,7 +7,7 @@
 
 </br>
 
-## 🛠 Built With
+## Built
 - [MVVM (Model - View - ViewModel)](https://developer.android.com/topic/architecture)
 - [Dependency Injection (Dagger Hilt)](https://developer.android.com/training/dependency-injection/hilt-android)
 - [Flow](https://kotlinlang.org/docs/flow.html)
