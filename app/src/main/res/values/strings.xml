@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AI-Dall-E</string>
+    <string name="size_512">Size 512</string>
+    <string name="size_256">Size256</string>
+    <string name="size_1024">Size 1024</string>
+    <string name="generate">Generate</string>
+    <string name="prompt_hint">AI</string>
+    <string name="enter_description">Enter</string>
+    <string name="close">Close</string>
+    <string name="download">download</string>
 </resources>
