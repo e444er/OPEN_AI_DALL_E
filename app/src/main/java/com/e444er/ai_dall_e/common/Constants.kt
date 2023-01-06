@@ -2,7 +2,7 @@ package com.e444er.ai_dall_e.common
 
 object Constants {
     const val BASE_URL = "https://api.openai.com/v1/"
-    const val TOKEN = "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"
+    const val TOKEN = "KEY"
     const val GENERATE_IMAGE = "images/generations"
     const val SIZE_256 = "256x256"
     const val SIZE_512 = "512x512"

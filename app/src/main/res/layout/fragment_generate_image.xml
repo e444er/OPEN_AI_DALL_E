@@ -7,24 +7,11 @@
     android:padding="10dp"
     tools:context=".presentation.generate_image.GenerateImageFragment">
 
-    <TextView
-        android:id="@+id/editDesc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/enter_description"
-        android:textColor="@color/purple_700"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/promptInputLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:gravity="top"
         android:hint="@string/prompt_hint"
         android:textColorHint="@color/purple_700"
@@ -36,7 +23,7 @@
         app:boxStrokeWidth="@dimen/stroke_width_small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editDesc">
+        app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/promptEditText"
